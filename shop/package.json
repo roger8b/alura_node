@@ -1,0 +1,23 @@
+{
+  "name": "@rogermartins/shop",
+  "version": "1.0.0",
+  "description": "Alura NodeJs Course",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "author": "Roger <roger.8b@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-jest": "^24.3.5",
+    "jest": "^26.6.3",
+    "prettier": "2.2.1",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
